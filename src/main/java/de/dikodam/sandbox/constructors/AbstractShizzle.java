@@ -1,4 +1,4 @@
-package de.adkon.constructors;
+package de.dikodam.sandbox.constructors;
 
 public abstract class AbstractShizzle {
 }

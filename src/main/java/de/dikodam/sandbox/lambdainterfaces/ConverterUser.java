@@ -1,4 +1,4 @@
-package de.adkon.lambdainterfaces;
+package de.dikodam.sandbox.lambdainterfaces;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;

@@ -1,5 +1,7 @@
-package de.adkon.sandbox.java8streams;
+package de.dikodam.sandbox.java8streams;
 
+
+import de.adkon.sandbox.java8streams.ProzessDatenDto;
 
 import java.util.List;
 

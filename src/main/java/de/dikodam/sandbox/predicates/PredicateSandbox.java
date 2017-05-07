@@ -1,4 +1,4 @@
-package de.adkon.sandbox.predicates;
+package de.dikodam.sandbox.predicates;
 
 import org.junit.Test;
 
