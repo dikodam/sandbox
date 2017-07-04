@@ -1,5 +1,6 @@
 package de.dikodam.sandbox.java8streams;
 
+import de.dikodam.sandbox.java8streams.dataholders.*;
 import mockit.Expectations;
 import mockit.Injectable;
 import mockit.Tested;

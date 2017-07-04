@@ -1,4 +1,4 @@
-package de.dikodam.sandbox.java8streams;
+package de.dikodam.sandbox.java8streams.dataholders;
 
 import java.util.List;
 
