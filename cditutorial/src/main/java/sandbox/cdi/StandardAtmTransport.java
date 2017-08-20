@@ -1,8 +1,5 @@
 package sandbox.cdi;
 
-import javax.enterprise.inject.Default;
-
-@Default
 public class StandardAtmTransport implements ATMTransport {
 
     @Override

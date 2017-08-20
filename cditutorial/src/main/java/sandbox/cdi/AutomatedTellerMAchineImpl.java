@@ -4,9 +4,11 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import java.math.BigDecimal;
 
-@Named("atm")
+@Named()
 public class AutomatedTellerMAchineImpl implements AutomatedTellerMachine {
 
+    @Inject
+    // @Json
     private ATMTransport transport;
 
     @Override
@@ -21,8 +23,4 @@ public class AutomatedTellerMAchineImpl implements AutomatedTellerMachine {
         transport.communicateWithBank("lululu".getBytes());
     }
 
-    @Inject
-    public void setTransport(ATMTransport transport) {
-        this.transport = transport;
-    }
 }
