@@ -3,8 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.adkon.sandbox</groupId>
     <artifactId>sandbox</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>cditutorial</module>
+    </modules>
     <name>SANDBOX</name>
 
     <properties>
