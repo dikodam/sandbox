@@ -4,10 +4,13 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import java.math.BigDecimal;
 
+import static sandbox.cdi.TransportType.*;
+
 @Named()
 public class AutomatedTellerMAchineImpl implements AutomatedTellerMachine {
 
     @Inject
+    @Transport(type = SOAP)
     // @Json
     private ATMTransport transport;
 

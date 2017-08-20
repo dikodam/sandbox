@@ -1,5 +1,8 @@
 package sandbox.cdi;
 
+import static sandbox.cdi.TransportType.STANDARD;
+
+@Transport(type = STANDARD)
 public class StandardAtmTransport implements ATMTransport {
 
     @Override

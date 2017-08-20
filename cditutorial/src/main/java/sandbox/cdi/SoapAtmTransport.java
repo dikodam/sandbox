@@ -1,8 +1,9 @@
 package sandbox.cdi;
 
-import javax.enterprise.inject.Alternative;
+import static sandbox.cdi.TransportType.SOAP;
 
-@Alternative
+//@Alternative
+@Transport(type = SOAP)
 public class SoapAtmTransport implements ATMTransport {
 
     @Override

@@ -1,7 +1,10 @@
 package sandbox.cdi;
 
-@Json
+import static sandbox.cdi.TransportType.*;
+
+//@Json
 //@Alternative
+@Transport(type = JSON)
 public class JsonAtmTransport implements ATMTransport {
 
     @Override
