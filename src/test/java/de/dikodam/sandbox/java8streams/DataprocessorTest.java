@@ -1,22 +1,7 @@
 package de.dikodam.sandbox.java8streams;
 
-import de.dikodam.sandbox.java8streams.dataholders.*;
-import mockit.Expectations;
-import mockit.Injectable;
-import mockit.Tested;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.ExpectedException;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsInAnyOrder;
-
 public class DataprocessorTest {
-
+    /*
     @Tested
     Dataprocessor tested;
 
@@ -115,5 +100,5 @@ public class DataprocessorTest {
         tested.getDtos(FalscheImpl.class);
     }
 
-
+*/
 }
